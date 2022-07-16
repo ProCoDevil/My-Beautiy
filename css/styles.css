@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 101010 fee400 */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navigation Bar */
+
+
+.navbar-light .navbar-nav .nav-link {
+  color: #000;
+  font-family: "ITC Avant Garde Gothic"
+    , sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  padding: 1rem;
+}
+
+.container-fluid {
+  padding: 5% 14%;
+}
+
+.container-gray {
+  background-color: #efefef;
+}
+
+.imgfav {
+  border-radius: 100%;
+  position: absolute;
+  left: 45%;
+  top: -1%;
+}
+
+.bg {
+  background-color: #fee400;
+}
+
+/* Title */
+.big-heading {
+  font-family: "Haas Grot Text R Web",
+    "Helvetica Neue",
+    Helvetica,
+    Arial,
+    sans-serif;
+  margin: 17% 0;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 4rem;
+  letter-spacing: 0.8px;
+  font-size: 50px;
+  text-align: left;
+}
+
+.small-heading {
+  font-family: ""Montserrat",
+sans-serif;
+  font-weight: 400;
+  text-align: left;
+  line-height: 1.5rem;
+  letter-spacing: 2px;
+  margin: 10% 0;
+}
+
+.btn-size {
+  margin: 3% 2%;
+  text-align: center;
+}
+
+/* Skills */
+.skill-heading {
+  text-align: center;
+  margin: 2% auto;
+}
+
+.container-bg {
+  background-color: #fff;
+  padding: 5% 14%;
+}
+
+.skill-row {
+  margin-top: 10%;
+  margin-right: 12%;
+}
+
+/* Projects */
+.card-row {
+  margin-top: 18%;
+}
+
+#testimonials {
+  background-color: #fee400;
+  margin-top: 7%;
+}
+
+
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.container-slide {
+  margin: 7% 3%;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+.footer-section {
+  text-align: center;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
