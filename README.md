@@ -1,2 +1,2 @@
-# My-Beautiy
+# My-Beauty
 My Site 
